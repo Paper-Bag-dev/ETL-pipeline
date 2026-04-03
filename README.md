@@ -1,6 +1,6 @@
-# Kasparro Crypto ETL System — Submission Overview
+# ETL Crypto ETL System — Submission Overview
 
-This project implements a complete ETL + API backend for the Kasparro assignment. This project is deployed on render due to credit limitations in other cloud services providers. Its running for 0 cost via a workflow cron job in .github/workflows/cron.yml and backend hosted and deployed on render.com with postgres instance from aiven cloud. You can visit https://kasparro-backend-latest.onrender.com/ to check the get endpoints labelled below. To run it please follow the instructions below after cloning this repo and use the Makefile to run it locally.
+This project implements a complete ETL + API backend for the ETL assignment. This project is deployed on render due to credit limitations in other cloud services providers. Its running for 0 cost via a workflow cron job in .github/workflows/cron.yml and backend hosted and deployed on render.com with postgres instance from aiven cloud. You can visit https://ETL-backend-latest.onrender.com/ to check the get endpoints labelled below. To run it please follow the instructions below after cloning this repo and use the Makefile to run it locally.
 
 ## ✅ Completed Requirements
 **P0 — FOUNDATION LAYER**  
@@ -23,12 +23,12 @@ This project implements a complete ETL + API backend for the Kasparro assignment
 ## 📦 Docker Image (Final Submission)
 
 Public Docker Hub image:  
-👉 **https://hub.docker.com/r/aetherlover/kasparro-backend**
+👉 **https://hub.docker.com/r/aetherlover/ETL-backend**
 
 Pull it:
 
 ```
-docker pull aetherlover/kasparro-backend:latest
+docker pull aetherlover/ETL-backend:latest
 ```
 
 
@@ -38,8 +38,8 @@ docker pull aetherlover/kasparro-backend:latest
 
 ## 0. Clone this repository:
 ```
-git clone https://github.com/Paper-Bag-dev/kasparro-backend-vikalp-sharma.git
-cd kasparro-backend-vikalp-sharma
+git clone https://github.com/Paper-Bag-dev/ETL-backend-vikalp-sharma.git
+cd ETL-backend-vikalp-sharma
 ```
 
 ## 1. Create `.env`
