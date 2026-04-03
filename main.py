@@ -41,7 +41,7 @@ async def lifespan(app: FastAPI):
         print("Scheduler stopped")
 
 
-app = FastAPI(title="Kassparo Backend Assignment", lifespan=lifespan)
+app = FastAPI(title="ETL Backend Assignment", lifespan=lifespan)
 
 app.middleware("http")(request_context_middleware)
 app.include_router(health_router)
